@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "BUSINESSCARD"
+	id          = "BUSINESSCARD"
         version     = "1.0.0" >
 
     <name>BUSINESSCARD</name>
     <description>BUSINESSCARD</description>
-	</author>
-	<platform name="android" />
-	
+	    <platform name="android" />
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
 
