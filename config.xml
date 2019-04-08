@@ -4,10 +4,8 @@
 		id          = "BUSINESSCARD"
         version     = "1.0.0" >
 
-    <name>NETWORK</name>
-    <description>NETWORK</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <name>BUSINESSCARD</name>
+    <description>BUSINESSCARD</description>
 	</author>
 	<platform name="android" />
 	
