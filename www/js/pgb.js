@@ -8,7 +8,7 @@ function onDeviceReady() {
 	navigator.notification.beep(1);
 }
 function showInfo() {
-	info = 'Hello, this is my businesscard + '\n' +
+	info = 'Hello, this is my businesscard' + '\n' +
 			'=====' + '\n' +
 			'Name and surname: Kamil Michalik' + '\n' +
 			'Email : kamil.michalik.94@gmail.com' + '\n' +
