@@ -10,7 +10,23 @@
 	<platform name="android">
     <!-- you can use any density that exists in the Android project -->
     <splash src="res/android/image1.png" density="land-hdpi"/>
+	<splash density="land-hdpi" src="res/android/image1.png" />
+	<splash density="land-ldpi" src="res/android/image1.png" />
+	<splash density="land-mdpi" src="res/android/image1.png" />
+	<splash density="land-xhdpi" src="res/android/image1.png" />
+	<splash density="hdpi" src="res/android/image1.png" />
+	<splash density="ldpi" src="res/android/image1.png" />
+	<splash density="mdpi" src="res/android/image1.png" />
+	<splash density="xhdpi" src="res/android/image1.png" />
+	
+	<icon src="res/android/icon1.jpg" density="land-hdpi" />
+	<icon src="res/android/icon1.jpg" density="land-ldpi" />
+	<icon src="res/android/icon1.jpg" density="land-mdpi" />
+	<icon src="res/android/icon1.jpg" density="land-xhdpi" />
+	<icon src="res/android/icon1.jpg" density="hdpi" />
 	<icon src="res/android/icon1.jpg" density="ldpi" />
+	<icon src="res/android/icon1.jpg" density="mdpi" />
+	<icon src="res/android/icon1.jpg" density="xhdpi" />
 	</platform>
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="SplashMaintainAspectRatio" value="true" />
