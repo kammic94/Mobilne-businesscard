@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-	id          = "BUSINESSCARD"
+		id          = "BUSINESSCARD"
         version     = "1.0.0" >
 
     <name>BUSINESSCARD</name>
     <description>BUSINESSCARD</description>
-	    <platform name="android" />
+
+	<<platform name="android">
+    <!-- you can use any density that exists in the Android project -->
+    <splash src="res/android/image1.jpg" density="land-hdpi"/>
+	 <icon src="res/android/icon1.jpg" density="ldpi" />
+	</platform>
+	<preference name="SplashScreenDelay" value="10000" />
 	<plugin name="cordova-plugin-device" spec="2.0.1" />
 	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
-
+	<plugin name="cordova-plugin-splashscreen" spec="~5.0.2" />
 </widget>

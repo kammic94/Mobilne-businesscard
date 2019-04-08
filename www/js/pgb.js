@@ -13,7 +13,7 @@ function showInfo() {
 			'Name and surname: Kamil Michalik' + '\n' +
 			'Email : kamil.michalik.94@gmail.com' + '\n' +
 			'Den group number: 187439 ' + '\n' +
-			'Field of study: Applied Computer Science' + '\n';	
+			'Field of study: Applied Computer Science' + '\n';
 			navigator.notification.alert(info);
 
 }
